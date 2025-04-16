@@ -4,108 +4,131 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <h1>Welcome to my Portfolio</h1>
-    
-    <a href="">
 
-     <button>About</button>
+    <header>
 
-    </a>    
+        <h1>Welcome to my Portfolio</h1>
     
-    <a href="">
+        <a href="">
+
+        <button>About</button>
+
+         </a>    
+    
+        <a href="">
 
         <button>Skills</button>
    
-       </a>     
+        </a>     
        
-       <a href="">
+        <a href="">
 
         <button>Project</button>
    
-       </a> 
+        </a> 
        
-       <a href="">
+        <a href="">
 
-        <button>Contact Details</button>
+        <button>Contact</button>
    
-       </a> 
+        </a>
 
-    <h1>Bablu Max</h1>
-    <img src="Max.png" alt="A photo of me">
-
-    <p>I am a passionate web developer with a focus on front-end technologies.</p>
-    <p>I completed MBA in <em>Pydah & Koushik collehe of Technolohies</em> in <strong>Vishakapatnam.</strong>
-    <p>I have learnt web Development from Code with swaroop   </p>
-    <p>You can <strong>Click here</strong> to Checkout What I have learnt in HTML,CSS and JavaSript.</p><hr>
-    <h1>My Skills</h1>
-
-    <ol>
-        <li>Python Basics</li>
-        <li>HTML Basics</li>
-        <li>CSS Basics</li>
-        <li>Java Script Basics</li>
-
-    </ol>
-
-    <h1>My Project</h1>
-    <table border="1">
-
-        <tr>
-            <th>Project</th>
-            <th>Description</th>
-
-        </tr>
-
-        <tr>
-            <td>Portfolio Website</td>
-            <td>I have built a Portfolio website by using HTML,CSS & JavaScrip</td>
-        </tr>
-
-        <tr>
-            <td>Python Simple Calculator</td>
-            <td>I have built a simple calculator in the course by code with swaroop</td>
-        </tr>
+    </header>
 
 
+    <main>
+
+        <section id="About">
+            
+        <h1>Bablu Max</h1>
+        <img src="Max.png" alt="A photo of me">
+    
+        <p>I am a passionate web developer with a focus on front-end technologies.</p>
+        <p>I completed MBA in <em>Pydah & Koushik collehe of Technolohies</em> in <strong>Vishakapatnam.</strong>
+        <p>I have learnt web Development from Code with swaroop   </p>
+        <p>You can <strong>Click here</strong> to Checkout What I have learnt in HTML,CSS and JavaSript.</p><hr>
+        
+        </section>
+                  
+
+        <section id="Skills">
+
+        <h1>My Skills</h1>
+
+             <ol>
+                 <li>Python Basics</li>
+                 <li>HTML Basics</li>
+                 <li>CSS Basics</li>
+                <li>Java Script Basics</li>
+    
+             </ol>
+
+        <section id="Project"></section>
+
+            <h1>My Project</h1>
+
+            <table border="1">
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+    
+                </tr>
+    
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>I have built a Portfolio website by using HTML,CSS & JavaScrip</td>
+                </tr>
+    
+                <tr>
+                    <td>Python Simple Calculator</td>
+                    <td>I have built a simple calculator in the course by code with swaroop</td>
+                </tr>
+    
+    
+            </table>
+
+        <section id="Contact"></section>
+
+    </main>
+
+
+    <footer>
+
+            <h1>Contact</h1>
+            <p>Feel free to get in touch with me using the form below:</p>
+
+        <form action="">
+
+            <label for="name">Name :</label>
+            <input type="text" required><br>
+
+            <label for="email">Email :</label>
+            <input type="email" required><br>
+
+            <b>Chooose your gender</b>
+            <input type="radio" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female">
+            <label for="female">female</label>
+            <br>
+
+            <b>Select your interests</b>
+            <input type="checkbox" id="Coding" value="Coding">
+            <label for="Coding">Coding</label>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">Reading</label>
+            <br>
+
+            <label for="bio">Bio (upto 200 Charecters) </label>
+            <input type="text">
+            <br>
+            <button type="sbmit">Submit</button>
 
 
 
+        </form>
 
-    </table>
-
-    <h1>Contact me</h1>
-    <p>Feel free to get in touch with me using the form below:</p>
-
-    <form action="">
-
-        <label for="name">Name :</label>
-        <input type="text" required><br>
-
-        <label for="email">Email :</label>
-        <input type="email" required><br>
-
-        <b>Chooose your gender</b>
-        <input type="radio" id="male" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" value="female">
-        <label for="female">female</label>
-        <br>
-
-        <b>Select your interests</b>
-        <input type="checkbox" id="Coding" value="Coding">
-        <label for="Coding">Coding</label>
-        <input type="checkbox" id="reading" value="reading">
-        <label for="reading">Reading</label>
-        <br>
-
-        <label for="bio">Bio (upto 200 Charecters) </label>
-        <input type="text">
-        <br>
-        <button type="sbmit">Submit</button>
-
-
-
-    </form>
+    </footer>
 
 
 </body>
